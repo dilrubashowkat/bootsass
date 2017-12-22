@@ -1,6 +1,11 @@
 @import "compass";
 @import "bootstrap";
 
+h1{
+	color:blue;
+	include single-box-shadow;
+}
+
 body{
 	@include container-fixed();
 
